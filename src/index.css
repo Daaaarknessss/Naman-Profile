@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&family=Barlow+Condensed:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  --bg-0: #02040a;
+  --bg-1: #060c1a;
+  --bg-2: #0a1730;
+  --ink: #eaf2ff;
+  --ink-dim: #6f86b8;
+  --blue: #2c7bff;
+  --blue-bright: #4a9bff;
+  --blue-glow: #7fb6ff;
+  --cyan: #62e6ff;
+  --warn: #ffb02c;
+  --bar-track: rgba(80, 130, 220, 0.15);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  background: var(--bg-0);
+  color: var(--ink);
+  font-family: 'Barlow Condensed', 'Oswald', system-ui, sans-serif;
+  font-weight: 400;
+  overflow: hidden;
+  letter-spacing: 0.02em;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  border: none;
+  min-height: 0;
+  display: block;
+  text-align: left;
+}
