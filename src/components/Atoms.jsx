@@ -47,7 +47,7 @@ export function Foot({ context }) {
           </>
         )}
       </div>
-      <div className="brand">v1.0 // BUILD 2026.04 // RPG-RESUME</div>
+      <div className="brand">v1.0 // BUILD 2026.04</div>
     </div>
   );
 }
