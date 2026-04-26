@@ -133,7 +133,6 @@ export default function App() {
   return (
     <div className="app">
       <Background />
-      <Corners />
       <Hud />
       {route === 'menu' ? (
         <MainMenu active={active} setActive={setActive} onSelect={navigate} />

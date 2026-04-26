@@ -108,8 +108,9 @@
 
 .portrait-frame {
   position: relative;
-  width: min(520px, 90%);
   aspect-ratio: 3 / 4;
+  height: calc(100vh - 160px);
+  width: auto;
   clip-path: polygon(0 0, 100% 0, 100% 88%, 88% 100%, 0 100%);
 }
 
